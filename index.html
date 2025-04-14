@@ -3,26 +3,36 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AI Car Assistant</title>
+  <title>Carra — Finding your car for you</title>
   <style>
     body {
+      background-color: #8d1b3d; /* Maroon */
+      color: white;
       font-family: Arial, sans-serif;
-      background: #f6f8fa;
       padding: 2rem;
-      max-width: 600px;
+      max-width: 800px;
       margin: auto;
     }
 
     h1 {
-      color: #333;
+      color: #ffd700; /* Gold */
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    h4 {
+      text-align: center;
+      color: #ffffffc9;
+      margin-top: -0.5rem;
+      margin-bottom: 2rem;
     }
 
     form {
-      background: white;
-      padding: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-      margin-bottom: 1rem;
+      background-color: #fff;
+      color: #000;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
     }
 
     label {
@@ -33,39 +43,51 @@
 
     input, select {
       width: 100%;
-      padding: 0.5rem;
-      margin-top: 0.5rem;
+      padding: 0.6rem;
+      margin-top: 0.3rem;
+      font-size: 1rem;
     }
 
     button {
       margin-top: 1.5rem;
-      padding: 0.7rem 1rem;
-      background: #007bff;
+      padding: 0.8rem 1.2rem;
+      background: black;
       color: white;
+      font-weight: bold;
       border: none;
       border-radius: 5px;
       cursor: pointer;
     }
 
     #results {
-      background: #fff;
-      padding: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      background-color: #fff;
+      color: #000;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      margin-top: 2rem;
+    }
+
+    .car {
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      border-bottom: 1px solid #ddd;
     }
   </style>
 </head>
 <body>
-  <h1>Find Your Perfect Car</h1>
+  <h1>Carra — Finding your car for you</h1>
+  <h4>by carspot.qa</h4>
+
   <form id="carForm">
     <label for="budget">Your Budget</label>
-    <input type="number" id="budget" required />
+    <input type="number" id="budget" placeholder="e.g. 70000" required />
 
     <label for="currency">Currency</label>
     <select id="currency">
-      <option value="usd">USD</option>
       <option value="qar">Qatari Riyal (QAR)</option>
       <option value="pkr">Pakistani Rupee (PKR)</option>
+      <option value="usd">USD</option>
     </select>
 
     <label for="region">Your Region</label>
@@ -81,7 +103,7 @@
       <option value="hybrid">Hybrid</option>
     </select>
 
-    <button type="submit">Search Cars</button>
+    <button type="submit">Find Cars</button>
   </form>
 
   <div id="results"></div>
