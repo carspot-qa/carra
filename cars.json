@@ -8,6 +8,7 @@
       { "name": "Toyota Camry", "priceQAR": 95000 },
       { "name": "Honda Accord", "priceQAR": 88000 },
       { "name": "Kia Cerato", "priceQAR": 72000 }
+      { "name": "Dodge Charger SRT", "priceQAR": 76000 }
     ],
     "truck": [
       { "name": "Ford F-150", "priceQAR": 210000 },
