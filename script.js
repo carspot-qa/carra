@@ -8,10 +8,12 @@ document.getElementById("carForm").addEventListener("submit", async (e) => {
     const res = await fetch("cars.json");
     const cars = await res.json();
   
+    // Filter cars based on budget, region, and fuel type
     const results = cars.filter(
       car => car.region === region && car.fuel === fuel && car.price <= budget
     );
   
+    // Show the results on the page
     const resultDiv = document.getElementById("results");
     resultDiv.innerHTML = "<h3>Results:</h3>" +
       (results.length
