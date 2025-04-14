@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Toyota Corolla",
+      "fuel": "Gasoline",
+      "region": "North America",
+      "price": 20000
+    },
+    {
+      "name": "Hyundai Ioniq 5",
+      "fuel": "Electric",
+      "region": "Europe",
+      "price": 40000
+    },
+    {
+      "name": "BYD Dolphin",
+      "fuel": "Electric",
+      "region": "Asia",
+      "price": 15000
+    },
+    {
+      "name": "Honda Civic Hybrid",
+      "fuel": "Hybrid",
+      "region": "North America",
+      "price": 25000
+    }
+  ]
+  

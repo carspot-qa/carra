@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Car Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Find Your Perfect Car</h1>
+  <form id="carForm">
+    <label>Budget ($): <input type="number" id="budget" required /></label><br />
+    <label>Region: 
+      <select id="region">
+        <option>North America</option>
+        <option>Europe</option>
+        <option>Asia</option>
+      </select>
+    </label><br />
+    <label>Fuel Type:
+      <select id="fuel">
+        <option>Gasoline</option>
+        <option>Electric</option>
+        <option>Hybrid</option>
+      </select>
+    </label><br />
+    <button type="submit">Find Cars</button>
+  </form>
+  <div id="results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

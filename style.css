@@ -1,0 +1,15 @@
+body {
+    font-family: sans-serif;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 10px;
+    line-height: 1.5;
+  }
+  
+  form input, form select, form button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
