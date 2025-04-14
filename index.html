@@ -1,113 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Carra — Finding your car for you</title>
-  <style>
+<style>
     body {
       background-color: #8d1b3d; /* Maroon */
       color: white;
-      font-family: Arial, sans-serif;
+      font-family: Helvetica, Arial, sans-serif;
       padding: 2rem;
-      max-width: 800px;
+      max-width: 600px;
       margin: auto;
     }
-
+  
     h1 {
       color: #ffd700; /* Gold */
-      font-size: 2rem;
       text-align: center;
     }
-
+  
     h4 {
       text-align: center;
-      color: #ffffffc9;
       margin-top: -0.5rem;
-      margin-bottom: 2rem;
+      color: #ffffffcc;
     }
-
+  
     form {
-      background-color: #fff;
-      color: #000;
+      background: #fff;
       padding: 1.5rem;
       border-radius: 12px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      color: #000;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+      margin-top: 2rem;
     }
-
+  
     label {
       display: block;
       margin-top: 1rem;
       font-weight: bold;
     }
-
+  
     input, select {
       width: 100%;
       padding: 0.6rem;
-      margin-top: 0.3rem;
       font-size: 1rem;
+      margin-top: 0.3rem;
+      font-family: Helvetica, Arial, sans-serif;
     }
-
+  
     button {
-      margin-top: 1.5rem;
-      padding: 0.8rem 1.2rem;
-      background: black;
+      background-color: black;
       color: white;
       font-weight: bold;
       border: none;
-      border-radius: 5px;
+      padding: 0.8rem;
+      margin-top: 1.5rem;
+      width: 100%;
       cursor: pointer;
+      border-radius: 5px;
+      font-family: Helvetica, Arial, sans-serif;
     }
-
+  
     #results {
-      background-color: #fff;
-      color: #000;
-      padding: 1.5rem;
-      border-radius: 12px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
       margin-top: 2rem;
+      background: white;
+      color: black;
+      padding: 1.5rem;
+      border-radius: 10px;
     }
-
+  
     .car {
       margin-bottom: 1rem;
-      padding: 0.5rem;
-      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid #ccc;
     }
   </style>
-</head>
-<body>
-  <h1>Carra — Finding your car for you</h1>
-  <h4>by carspot.qa</h4>
-
-  <form id="carForm">
-    <label for="budget">Your Budget</label>
-    <input type="number" id="budget" placeholder="e.g. 70000" required />
-
-    <label for="currency">Currency</label>
-    <select id="currency">
-      <option value="qar">Qatari Riyal (QAR)</option>
-      <option value="pkr">Pakistani Rupee (PKR)</option>
-      <option value="usd">USD</option>
-    </select>
-
-    <label for="region">Your Region</label>
-    <select id="region">
-      <option value="gulf">Gulf</option>
-      <option value="pakistan">Pakistan</option>
-    </select>
-
-    <label for="fuel">Preferred Fuel Type</label>
-    <select id="fuel">
-      <option value="petrol">Petrol</option>
-      <option value="electric">Electric</option>
-      <option value="hybrid">Hybrid</option>
-    </select>
-
-    <button type="submit">Find Cars</button>
-  </form>
-
-  <div id="results"></div>
-
-  <script src="script.js"></script>
-</body>
-</html>
+  

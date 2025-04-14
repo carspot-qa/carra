@@ -1,45 +1,21 @@
-[
-    {
-      "name": "Toyota Camry",
-      "priceUSD": 25000,
-      "fuel": "petrol",
-      "region": "gulf"
-    },
-    {
-      "name": "Kia Sportage",
-      "priceUSD": 23000,
-      "fuel": "petrol",
-      "region": "gulf"
-    },
-    {
-      "name": "Hyundai Sonata Hybrid",
-      "priceUSD": 27000,
-      "fuel": "hybrid",
-      "region": "gulf"
-    },
-    {
-      "name": "Dodge Charger SRT",
-      "priceUSD": 70000,
-      "fuel": "petrol",
-      "region": "gulf"
-    },
-    {
-      "name": "Suzuki Cultus",
-      "priceUSD": 9500,
-      "fuel": "petrol",
-      "region": "pakistan"
-    },
-    {
-      "name": "MG ZS EV",
-      "priceUSD": 20000,
-      "fuel": "electric",
-      "region": "pakistan"
-    },
-    {
-      "name": "Toyota Prius",
-      "priceUSD": 22000,
-      "fuel": "hybrid",
-      "region": "pakistan"
-    }
-  ]
+{
+    "suv": [
+      { "name": "Toyota Land Cruiser", "priceQAR": 320000 },
+      { "name": "Nissan Patrol", "priceQAR": 290000 },
+      { "name": "Hyundai Tucson", "priceQAR": 95000 }
+    ],
+    "sedan": [
+      { "name": "Toyota Camry", "priceQAR": 95000 },
+      { "name": "Honda Accord", "priceQAR": 88000 },
+      { "name": "Kia Cerato", "priceQAR": 72000 }
+    ],
+    "truck": [
+      { "name": "Ford F-150", "priceQAR": 210000 },
+      { "name": "Toyota Hilux", "priceQAR": 115000 }
+    ],
+    "hatchback": [
+      { "name": "Suzuki Swift", "priceQAR": 48000 },
+      { "name": "Hyundai i20", "priceQAR": 55000 }
+    ]
+  }
   
