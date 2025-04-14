@@ -1,29 +1,11 @@
-document.getElementById("carForm").addEventListener("submit", (e) => {
+document.getElementById("carForm").addEventListener("submit", async (e) => {
     e.preventDefault();
   
     const budget = parseInt(document.getElementById("budget").value);
     const type = document.getElementById("type").value;
   
-    const cars = {
-      suv: [
-        { name: "Toyota Land Cruiser", priceQAR: 320000 },
-        { name: "Nissan Patrol", priceQAR: 290000 },
-        { name: "Hyundai Tucson", priceQAR: 95000 }
-      ],
-      sedan: [
-        { name: "Toyota Camry", priceQAR: 95000 },
-        { name: "Honda Accord", priceQAR: 88000 },
-        { name: "Kia Cerato", priceQAR: 72000 }
-      ],
-      truck: [
-        { name: "Ford F-150", priceQAR: 210000 },
-        { name: "Toyota Hilux", priceQAR: 115000 }
-      ],
-      hatchback: [
-        { name: "Suzuki Swift", priceQAR: 48000 },
-        { name: "Hyundai i20", priceQAR: 55000 }
-      ]
-    };
+    const res = await fetch("cars.json");
+    const cars = await res.json();
   
     const resultsDiv = document.getElementById("results");
     const matches = cars[type].filter(car => car.priceQAR <= budget);
