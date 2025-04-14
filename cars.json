@@ -1,27 +1,45 @@
 [
     {
-      "name": "Toyota Corolla",
-      "fuel": "Gasoline",
-      "region": "North America",
-      "price": 20000
+      "name": "Toyota Camry",
+      "priceUSD": 25000,
+      "fuel": "petrol",
+      "region": "gulf"
     },
     {
-      "name": "Hyundai Ioniq 5",
-      "fuel": "Electric",
-      "region": "Europe",
-      "price": 40000
+      "name": "Kia Sportage",
+      "priceUSD": 23000,
+      "fuel": "petrol",
+      "region": "gulf"
     },
     {
-      "name": "BYD Dolphin",
-      "fuel": "Electric",
-      "region": "Asia",
-      "price": 15000
+      "name": "Hyundai Sonata Hybrid",
+      "priceUSD": 27000,
+      "fuel": "hybrid",
+      "region": "gulf"
     },
     {
-      "name": "Honda Civic Hybrid",
-      "fuel": "Hybrid",
-      "region": "North America",
-      "price": 25000
+      "name": "Dodge Charger SRT",
+      "priceUSD": 70000,
+      "fuel": "petrol",
+      "region": "gulf"
+    },
+    {
+      "name": "Suzuki Cultus",
+      "priceUSD": 9500,
+      "fuel": "petrol",
+      "region": "pakistan"
+    },
+    {
+      "name": "MG ZS EV",
+      "priceUSD": 20000,
+      "fuel": "electric",
+      "region": "pakistan"
+    },
+    {
+      "name": "Toyota Prius",
+      "priceUSD": 22000,
+      "fuel": "hybrid",
+      "region": "pakistan"
     }
   ]
   

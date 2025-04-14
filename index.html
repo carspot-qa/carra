@@ -1,32 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>AI Car Assistant</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f6f8fa;
+      padding: 2rem;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    form {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      margin-bottom: 1rem;
+    }
+
+    label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+    }
+
+    button {
+      margin-top: 1.5rem;
+      padding: 0.7rem 1rem;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #results {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+  </style>
 </head>
 <body>
-    <h1>Carra — Find your perfect car</h1>
-    <label>by carspotqa</label>
+  <h1>Find Your Perfect Car</h1>
   <form id="carForm">
-    <label>Budget ($): <input type="number" id="budget" required /></label><br />
-    <label>Region: 
-      <select id="region">
-        <option>North America</option>
-        <option>Europe</option>
-        <option>Asia</option>
-        <option>Middle East</option>
-      </select>
-    </label><br />
-    <label>Fuel Type:
-      <select id="fuel">
-        <option>Gasoline</option>
-        <option>Electric</option>
-        <option>Hybrid</option>
-      </select>
-    </label><br />
-    <button type="submit">Find Cars</button>
+    <label for="budget">Your Budget</label>
+    <input type="number" id="budget" required />
+
+    <label for="currency">Currency</label>
+    <select id="currency">
+      <option value="usd">USD</option>
+      <option value="qar">Qatari Riyal (QAR)</option>
+      <option value="pkr">Pakistani Rupee (PKR)</option>
+    </select>
+
+    <label for="region">Your Region</label>
+    <select id="region">
+      <option value="gulf">Gulf</option>
+      <option value="pakistan">Pakistan</option>
+    </select>
+
+    <label for="fuel">Preferred Fuel Type</label>
+    <select id="fuel">
+      <option value="petrol">Petrol</option>
+      <option value="electric">Electric</option>
+      <option value="hybrid">Hybrid</option>
+    </select>
+
+    <button type="submit">Search Cars</button>
   </form>
+
   <div id="results"></div>
 
   <script src="script.js"></script>
