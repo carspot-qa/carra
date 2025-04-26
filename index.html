@@ -6,71 +6,118 @@
   <title>Carra — Finding your car for you</title>
   <style>
     body {
-      background-color: #8d1b3d; /* Maroon */
+      background: linear-gradient(135deg, #8d1b3d, #5c0e2b);
       color: white;
-      font-family: Arial, sans-serif;
+      font-family: 'Poppins', sans-serif;
       padding: 2rem;
       max-width: 600px;
       margin: auto;
+      animation: fadeIn 1s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
     h1 {
       color: #ffd700; /* Gold */
       text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
     }
 
     h4 {
       text-align: center;
       margin-top: -0.5rem;
       color: #ffffffcc;
+      font-weight: normal;
     }
 
     form {
       background: #fff;
-      padding: 1.5rem;
-      border-radius: 12px;
+      padding: 2rem;
+      border-radius: 20px;
       color: #000;
-      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
       margin-top: 2rem;
+      animation: fadeIn 1s ease-out 0.2s both;
     }
 
     label {
       display: block;
-      margin-top: 1rem;
-      font-weight: bold;
+      margin-top: 1.5rem;
+      font-weight: 600;
     }
 
     input, select {
       width: 100%;
-      padding: 0.6rem;
+      padding: 0.8rem;
       font-size: 1rem;
-      margin-top: 0.3rem;
+      margin-top: 0.5rem;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      background-color: #f9f9f9;
+      appearance: none;
+      transition: border 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    input:focus, select:focus {
+      border-color: #8d1b3d;
+      outline: none;
+      box-shadow: 0 0 8px rgba(141, 27, 61, 0.5);
+    }
+
+    select {
+      background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+      background-repeat: no-repeat;
+      background-position: right 1rem center;
+      background-size: 1rem;
+      padding-right: 2.5rem;
+      cursor: pointer;
     }
 
     button {
-      background-color: black;
+      background: linear-gradient(90deg, #000, #333);
       color: white;
       font-weight: bold;
       border: none;
-      padding: 0.8rem;
-      margin-top: 1.5rem;
+      padding: 1rem;
+      margin-top: 2rem;
       width: 100%;
       cursor: pointer;
-      border-radius: 5px;
+      border-radius: 10px;
+      transition: background 0.3s ease, transform 0.2s;
+    }
+
+    button:hover {
+      background: linear-gradient(90deg, #333, #000);
+      transform: translateY(-3px);
     }
 
     #results {
       margin-top: 2rem;
-      background: white;
-      color: black;
-      padding: 1.5rem;
-      border-radius: 10px;
+      background: #fff;
+      color: #000;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      animation: fadeIn 1s ease-out 0.5s both;
     }
 
     .car {
-      margin-bottom: 1rem;
-      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
       border-bottom: 1px solid #ccc;
+      animation: fadeIn 0.8s ease-out;
+    }
+
+    .car strong {
+      font-size: 1.2rem;
+    }
+
+    .car:last-child {
+      border-bottom: none;
     }
   </style>
 </head>
@@ -87,7 +134,7 @@
       <option value="suv">SUV</option>
       <option value="sedan">Sedan</option>
       <option value="truck">Truck</option>
-      <option value="sports">Sports</option> <!-- Updated from hatchback to sports -->
+      <option value="sports">Sports</option> <!-- updated here -->
     </select>
 
     <button type="submit">Find Cars</button>
