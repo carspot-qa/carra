@@ -12,6 +12,7 @@ document.getElementById("carForm").addEventListener("submit", async (e) => {
 
   resultsDiv.innerHTML = `<h3>Results:</h3>`;
 
+  
   if (matches.length > 0) {
     matches.forEach(car => {
       resultsDiv.innerHTML += `
@@ -22,6 +23,7 @@ document.getElementById("carForm").addEventListener("submit", async (e) => {
       `;
     });
   } else {
-    resultsDiv.innerHTML += `<p>No cars found under your budget.</p>`;
+    resultsDiv.innerHTML += `<p>there was an error, no cars found within your budget</p>`;
   }
+  
 });

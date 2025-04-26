@@ -9,7 +9,22 @@
     { "name": "Chevrolet Tahoe", "priceQAR": 250000 },
     { "name": "GMC Yukon", "priceQAR": 270000 },
     { "name": "Ford Explorer", "priceQAR": 160000 },
-    { "name": "Range Rover Sport", "priceQAR": 400000 }
+    { "name": "Range Rover Sport", "priceQAR": 400000 },
+    { "name": "Ford EcoSport", "priceQAR": 75000 },
+    { "name": "Renault Duster", "priceQAR": 68000 },
+    { "name": "Suzuki Jimny", "priceQAR": 90000 },
+    { "name": "Toyota Fortuner", "priceQAR": 145000 },
+    { "name": "Honda CR-V", "priceQAR": 125000 },
+    { "name": "Mazda CX-5", "priceQAR": 110000 },
+    { "name": "Kia Seltos", "priceQAR": 88000 },
+    { "name": "BMW X5", "priceQAR": 380000 },
+    { "name": "Mercedes-Benz GLE", "priceQAR": 420000 },
+    { "name": "Audi Q7", "priceQAR": 390000 },
+    { "name": "Porsche Cayenne", "priceQAR": 450000 },
+    { "name": "Land Rover Defender", "priceQAR": 430000 },
+    { "name": "Changan CS95", "priceQAR": 95000 },
+    { "name": "MG RX8", "priceQAR": 87000 },
+    { "name": "Haval H6", "priceQAR": 82000 }
   ],
   "sedan": [
     { "name": "Toyota Camry", "priceQAR": 95000 },
@@ -21,7 +36,22 @@
     { "name": "Toyota Yaris Sedan", "priceQAR": 65000 },
     { "name": "Honda Civic", "priceQAR": 78000 },
     { "name": "Chevrolet Malibu", "priceQAR": 87000 },
-    { "name": "Genesis G80", "priceQAR": 210000 }
+    { "name": "Genesis G80", "priceQAR": 210000 },
+    { "name": "Toyota Corolla", "priceQAR": 69000 },
+    { "name": "Hyundai Elantra", "priceQAR": 74000 },
+    { "name": "Renault Symbol", "priceQAR": 58000 },
+    { "name": "MG 5", "priceQAR": 57000 },
+    { "name": "Changan Eado Plus", "priceQAR": 60000 },
+    { "name": "BMW 3 Series", "priceQAR": 240000 },
+    { "name": "Mercedes-Benz C-Class", "priceQAR": 260000 },
+    { "name": "Audi A4", "priceQAR": 250000 },
+    { "name": "Volkswagen Passat", "priceQAR": 120000 },
+    { "name": "Peugeot 508", "priceQAR": 110000 },
+    { "name": "Skoda Octavia", "priceQAR": 105000 },
+    { "name": "Lexus ES 350", "priceQAR": 270000 },
+    { "name": "Tesla Model 3", "priceQAR": 280000 },
+    { "name": "Honda City", "priceQAR": 64000 },
+    { "name": "Toyota Avalon", "priceQAR": 190000 }
   ],
   "truck": [
     { "name": "Ford F-150", "priceQAR": 210000 },
@@ -29,7 +59,13 @@
     { "name": "Nissan Navara", "priceQAR": 105000 },
     { "name": "Mitsubishi L200", "priceQAR": 98000 },
     { "name": "Chevrolet Silverado", "priceQAR": 215000 },
-    { "name": "GMC Sierra", "priceQAR": 230000 }
+    { "name": "GMC Sierra", "priceQAR": 230000 },
+    { "name": "Ram 1500", "priceQAR": 240000 },
+    { "name": "Toyota Tundra", "priceQAR": 250000 },
+    { "name": "Ford Ranger", "priceQAR": 120000 },
+    { "name": "Isuzu D-Max", "priceQAR": 95000 },
+    { "name": "Great Wall Wingle 7", "priceQAR": 68000 },
+    { "name": "JAC T8", "priceQAR": 62000 }
   ],
   "sports": [
     { "name": "Dodge Charger SRT", "priceQAR": 250000 },
@@ -41,6 +77,16 @@
     { "name": "Porsche 911 Carrera", "priceQAR": 460000 },
     { "name": "Nissan GT-R", "priceQAR": 500000 },
     { "name": "Audi RS5", "priceQAR": 400000 },
-    { "name": "Lexus RC F", "priceQAR": 370000 }
+    { "name": "Lexus RC F", "priceQAR": 370000 },
+    { "name": "Toyota GR Supra", "priceQAR": 240000 },
+    { "name": "Alfa Romeo Giulia Quadrifoglio", "priceQAR": 430000 },
+    { "name": "Jaguar F-Type", "priceQAR": 480000 },
+    { "name": "Ferrari Roma", "priceQAR": 900000 },
+    { "name": "Lamborghini Huracan Evo", "priceQAR": 1300000 },
+    { "name": "Aston Martin Vantage", "priceQAR": 950000 },
+    { "name": "McLaren Artura", "priceQAR": 1400000 },
+    { "name": "Porsche Taycan Turbo", "priceQAR": 600000 },
+    { "name": "Chevrolet Corvette C8", "priceQAR": 380000 },
+    { "name": "Lotus Emira", "priceQAR": 450000 }
   ]
 }
