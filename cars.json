@@ -1,21 +1,46 @@
 {
-    "suv": [
-      { "name": "Toyota Land Cruiser", "priceQAR": 320000 },
-      { "name": "Nissan Patrol", "priceQAR": 290000 },
-      { "name": "Hyundai Tucson", "priceQAR": 95000 }
-    ],
-    "sedan": [
-      { "name": "Toyota Camry", "priceQAR": 95000 },
-      { "name": "Honda Accord", "priceQAR": 88000 },
-      { "name": "Kia Cerato", "priceQAR": 72000 }
-    ],
-    "truck": [
-      { "name": "Ford F-150", "priceQAR": 210000 },
-      { "name": "Toyota Hilux", "priceQAR": 115000 }
-    ],
-    "hatchback": [
-      { "name": "Suzuki Swift", "priceQAR": 48000 },
-      { "name": "Hyundai i20", "priceQAR": 55000 }
-    ]
-  }
-  
+  "suv": [
+    { "name": "Toyota Land Cruiser", "priceQAR": 320000 },
+    { "name": "Nissan Patrol", "priceQAR": 290000 },
+    { "name": "Hyundai Tucson", "priceQAR": 95000 },
+    { "name": "Mitsubishi Pajero", "priceQAR": 135000 },
+    { "name": "Kia Sorento", "priceQAR": 120000 },
+    { "name": "Jeep Grand Cherokee", "priceQAR": 190000 },
+    { "name": "Chevrolet Tahoe", "priceQAR": 250000 },
+    { "name": "GMC Yukon", "priceQAR": 270000 },
+    { "name": "Ford Explorer", "priceQAR": 160000 },
+    { "name": "Range Rover Sport", "priceQAR": 400000 }
+  ],
+  "sedan": [
+    { "name": "Toyota Camry", "priceQAR": 95000 },
+    { "name": "Honda Accord", "priceQAR": 88000 },
+    { "name": "Kia Cerato", "priceQAR": 72000 },
+    { "name": "Nissan Altima", "priceQAR": 85000 },
+    { "name": "Hyundai Sonata", "priceQAR": 82000 },
+    { "name": "Mazda 6", "priceQAR": 80000 },
+    { "name": "Toyota Yaris Sedan", "priceQAR": 65000 },
+    { "name": "Honda Civic", "priceQAR": 78000 },
+    { "name": "Chevrolet Malibu", "priceQAR": 87000 },
+    { "name": "Genesis G80", "priceQAR": 210000 }
+  ],
+  "truck": [
+    { "name": "Ford F-150", "priceQAR": 210000 },
+    { "name": "Toyota Hilux", "priceQAR": 115000 },
+    { "name": "Nissan Navara", "priceQAR": 105000 },
+    { "name": "Mitsubishi L200", "priceQAR": 98000 },
+    { "name": "Chevrolet Silverado", "priceQAR": 215000 },
+    { "name": "GMC Sierra", "priceQAR": 230000 }
+  ],
+  "sports": [
+    { "name": "Dodge Charger SRT", "priceQAR": 250000 },
+    { "name": "Dodge Challenger Hellcat", "priceQAR": 320000 },
+    { "name": "Ford Mustang GT", "priceQAR": 220000 },
+    { "name": "Chevrolet Camaro SS", "priceQAR": 210000 },
+    { "name": "BMW M4", "priceQAR": 380000 },
+    { "name": "Mercedes-AMG C63", "priceQAR": 420000 },
+    { "name": "Porsche 911 Carrera", "priceQAR": 460000 },
+    { "name": "Nissan GT-R", "priceQAR": 500000 },
+    { "name": "Audi RS5", "priceQAR": 400000 },
+    { "name": "Lexus RC F", "priceQAR": 370000 }
+  ]
+}
